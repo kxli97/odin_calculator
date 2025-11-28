@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 640px;
+    min-width: 640px;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+
+button {
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button:hover {
+    color: white;
+    background-color: plum;
+}
+
+button:active {
+    color: white;
+    background-color: purple;
+    font-weight: bold;
+}
+
+#display-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#display {
+    display: flex;
+    background-color: rgba(222, 186, 222, 0.69);
+    min-height: 100px;
+    min-width: 640px;
+    align-items: center;
+    justify-content: center;
+}
