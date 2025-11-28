@@ -45,4 +45,18 @@ button:active {
     min-width: 640px;
     align-items: center;
     justify-content: center;
+    margin: 20px;
+}
+
+#equal-sign {
+    font-weight: bold;
+    color: rgb(118, 45, 118);
+    border-color: rgb(118, 45, 118);
+}
+
+#top-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
